@@ -1,4 +1,10 @@
 <?php
+// ************************************************************************************************************************************
+// This script was developed by Forthalia for its own use and is made available to others as is
+// By downloading or using this script there is an implicit waiver of responsibility to Forthalia made by who downloads it or uses it.
+// It is not allowed to modify, resell or redistribute woithout prior authorisation
+// ************************************************************************************************************************************
+
 // define('chmod_debug_mode', TRUE);
 define('chmod_debug_mode', FALSE);
 
