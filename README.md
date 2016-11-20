@@ -17,6 +17,8 @@ http://www.yoursite.com/yourcrm/chperms.php
 
 By default the script runs in silent mode so no output is displayed. When excution is finished permissions will have been reset to the correct values.
 
+Once the script has finished running it is recommended that you run, from within SuiteCRM/SugarCRM, Quick Repair and Rebuild. It may be necessary that both the chperms script and Quick Repair and Rebuild have to be run a few times.
+
 Options:
 Verbose/Silent mode:
 There are two ways to switch from verbose to silent mode:
