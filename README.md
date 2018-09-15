@@ -15,7 +15,7 @@ Type the url to your SuiteCRM/SugarCRM root folder followed by /chperms.php then
 
 http://www.yoursite.com/yourcrm/chperms.php
 
-By default the script runs in silent mode so no output is displayed. When excution is finished permissions will have been reset to the correct values.
+By default the script runs in silent mode so no output is displayed. When execution is finished permissions will have been reset to the correct values.
 
 Once the script has finished running it is recommended that you run, from within SuiteCRM/SugarCRM, Quick Repair and Rebuild. It may be necessary that both the chperms script and Quick Repair and Rebuild have to be run a few times.
 
@@ -25,8 +25,13 @@ There are two ways to switch from verbose to silent mode:
 
 . Edit the script
 it is possible to edit the script comment or uncomment one of the two following lines:
+
 // define('chmod_debug_mode', TRUE);
+
+or:
+
 define('chmod_debug_mode', FALSE);
+
 The default is Silent.
 
 . Add the verbose variable in the url of the script in the following way:
