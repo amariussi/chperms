@@ -39,4 +39,4 @@ http://www.yoursite.com/yourcrm/chperms.php?verbose=true
 or
 http://www.yoursite.com/yourcrm/chperms.php?verbose=false
 
-
+If you pass the verbose variable when invoking the script, this will prevail and override the chmod_debug_mode constant.
