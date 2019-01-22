@@ -110,7 +110,8 @@ if($chmod_debug_mode == TRUE)
   echo "($cmod_result) Changed permissions to: " . $this_folder['change_dir'] . " with : " . $perms['dir_perms'] . "<br>";
   } 
 
-chmod('config_override.php', 0775);
+if(file_exists('config_override.php'))
+  chmod('config_override.php', 0775);
 if($chmod_debug_mode == TRUE)
   $script_time_total = microtime(true) - $script_time_start;
 if($chmod_debug_mode == TRUE)
